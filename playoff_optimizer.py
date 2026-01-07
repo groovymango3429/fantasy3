@@ -34,6 +34,11 @@ class Player:
 class PlayoffOptimizer:
     """Optimizes playoff fantasy lineups"""
     
+    # Configuration constants
+    MIN_PLAYER_POINTS = 20  # Minimum fantasy points to consider a player
+    BASE_WEIGHT = 0.7  # Base weight for player value calculation
+    ADVANCEMENT_WEIGHT = 0.3  # Weight multiplier for advancement probability
+    
     # Playoff bracket structure
     # Wild Card Round (Week 1): #7 @ #2, #6 @ #3, #5 @ #4 (per conference)
     # Divisional Round (Week 2): Lowest seed @ #1, Other winner @ Higher seed
@@ -117,8 +122,9 @@ class PlayoffOptimizer:
                         position = row['POS'].strip()
                         fpts = float(row['FPTS'])
                         
-                        # Skip very low scoring players
-                        if fpts < 20:
+                        # Skip very low scoring players to improve performance
+                        # Only include players with at least MIN_PLAYER_POINTS fantasy points
+                        if fpts < self.MIN_PLAYER_POINTS:
                             continue
                         
                         player_id = f"{team_code}_{name}"
@@ -214,8 +220,9 @@ class PlayoffOptimizer:
             expected_weeks = sum(probs.values())
             
             # Weight the player's value by their team's expected playoff longevity
-            # But don't reduce too much - they still need to be available when needed
-            player.adjusted_fpts = player.adjusted_fpts * (0.7 + 0.3 * expected_weeks)
+            # Formula: base_weight + advancement_weight * expected_weeks
+            # This gives players from teams with higher advancement probability more value
+            player.adjusted_fpts = player.adjusted_fpts * (self.BASE_WEIGHT + self.ADVANCEMENT_WEIGHT * expected_weeks)
     
     def get_elite_conservation_bonus(self, team: str, week: int) -> float:
         """
@@ -512,8 +519,9 @@ class PlayoffOptimizer:
         eliminated_teams.update(['NE', 'PIT', 'CHI'])
         
         # Week 4: Super Bowl
-        # Remaining: DEN (AFC), SEA, JAX (one from each conference)
-        # Let's say DEN vs SEA
+        # Remaining: DEN (AFC), SEA, JAX (NFC) - at least one from each conference
+        # Note: This is a simplified simulation. Actual playoff results will vary.
+        # The optimizer assumes DEN (AFC #1) vs SEA (NFC #1) in Super Bowl based on seeding.
         print("\n=== SUPER BOWL (Week 4) ===")
         lineup = self.optimize_lineup_greedy(4, eliminated_teams)
         weekly_lineups[4] = lineup
