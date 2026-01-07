@@ -1,0 +1,114 @@
+================================================================================
+                    YOUR PLAYOFF FANTASY ROSTER
+                      QUICK REFERENCE GUIDE
+================================================================================
+
+Total Projected Points: 7,833.0
+Strategy: Use each player once, maximize PPR with TE premium, conserve elite 
+         players (DEN, SEA, NE) for later rounds
+
+================================================================================
+WEEK 1: WILD CARD ROUND (2,628.9 pts)
+================================================================================
+QB   Trevor Lawrence          Jacksonville Jaguars        338.2 pts
+RB   Christian McCaffrey      San Francisco 49ers         416.6 pts
+RB   Travis Etienne Jr.       Jacksonville Jaguars        253.9 pts
+RB   James Cook               Buffalo Bills               302.2 pts
+WR   Puka Nacua               Los Angeles Rams            375.0 pts
+WR   Jaxon Smith-Njigba       Seattle Seahawks            359.9 pts
+WR   A.J. Brown               Philadelphia Eagles         220.3 pts
+TE   Dallas Goedert           Philadelphia Eagles         185.1 pts
+TE   Dalton Schultz           Houston Texans              177.7 pts
+
+NOTE: Focus on Wild Card teams. Save DEN/NE elite players for later.
+
+================================================================================
+WEEK 2: DIVISIONAL ROUND (2,051.9 pts)
+================================================================================
+QB   Drake Maye               New England Patriots        352.0 pts
+RB   Saquon Barkley           Philadelphia Eagles         232.3 pts
+RB   Kyren Williams           Los Angeles Rams            263.3 pts
+RB   D'Andre Swift            Chicago Bears               228.6 pts
+WR   Courtland Sutton         Denver Broncos              219.7 pts
+WR   Stefon Diggs             New England Patriots        210.3 pts
+WR   DeVonta Smith            Philadelphia Eagles         201.8 pts
+TE   Hunter Henry             New England Patriots        178.8 pts
+TE   Colston Loveland         Chicago Bears               165.1 pts
+
+NOTE: Start using NE and DEN players as top seeds enter playoffs.
+
+================================================================================
+WEEK 3: CONFERENCE CHAMPIONSHIPS (1,752.6 pts)
+================================================================================
+QB   Caleb Williams           Chicago Bears               318.2 pts
+RB   RJ Harvey                Denver Broncos              206.6 pts
+RB   TreVeyon Henderson       New England Patriots        206.2 pts
+RB   Kenneth Walker III       Seattle Seahawks            191.9 pts
+WR   Troy Franklin            Denver Broncos              177.1 pts
+WR   DJ Moore                 Chicago Bears               170.2 pts
+WR   Rome Odunze              Chicago Bears               146.1 pts
+TE   AJ Barner                Seattle Seahawks            147.3 pts
+K    Jason Myers              Seattle Seahawks            189.0 pts
+
+NOTE: Heavy use of all three top seeds in Conference Championship games.
+
+================================================================================
+WEEK 4: SUPER BOWL (1,399.6 pts)
+================================================================================
+QB   Bo Nix                   Denver Broncos              304.8 pts
+RB   Zach Charbonnet          Seattle Seahawks            181.4 pts
+RB   J.K. Dobbins             Denver Broncos              115.9 pts
+WR   Rashid Shaheed           Seattle Seahawks            144.6 pts
+WR   Cooper Kupp              Seattle Seahawks            116.3 pts
+WR   Jakobi Meyers            Jacksonville Jaguars        175.8 pts
+TE   Evan Engram              Denver Broncos              102.8 pts
+K    Wil Lutz                 Denver Broncos              131.0 pts
+DEF  Ernest Jones IV          Seattle Seahawks            127.0 pts
+
+NOTE: Maximize DEN vs SEA Super Bowl matchup. Elite conservation pays off!
+
+================================================================================
+ROSTER CHECKLIST
+================================================================================
+✓ 36 unique players (each used only once)
+✓ All position requirements met (1 QB, 2-3 RB, 2-3 WR, 1-2 TE, 0-1 K, 0-1 DEF)
+✓ PPR scoring with 1.5x TE premium applied
+✓ Team advancement probabilities weighted by playoff seeding
+✓ Elite player conservation: Top seeds saved for later rounds
+✓ Total points optimized: 7,833.0 projected
+
+================================================================================
+TOP 5 SCORERS
+================================================================================
+1. Christian McCaffrey (SF)     - 416.6 pts (Week 1)
+2. Puka Nacua (LAR)            - 375.0 pts (Week 1)
+3. Jaxon Smith-Njigba (SEA)    - 359.9 pts (Week 1)
+4. Drake Maye (NE)             - 352.0 pts (Week 2)
+5. Trevor Lawrence (JAX)        - 338.2 pts (Week 1)
+
+================================================================================
+TEAM USAGE BY WEEK
+================================================================================
+Week 1: SF, JAX, BUF, LAR, PHI, HOU, SEA
+Week 2: NE, PHI, LAR, CHI, DEN
+Week 3: CHI, DEN, NE, SEA
+Week 4: DEN, SEA, JAX
+
+Elite Conservation Pattern:
+Week 1: ■ (1 player from top seeds)
+Week 2: ■■■■ (4 players)
+Week 3: ■■■■■■ (6 players)
+Week 4: ■■■■■■■■ (8 players)
+
+================================================================================
+USAGE INSTRUCTIONS
+================================================================================
+1. Print this roster and keep it handy during playoffs
+2. Set your lineup each week using EXACTLY these players
+3. Do NOT substitute - optimization assumes these specific players
+4. Trust the strategy - based on 441 players analyzed with advanced weighting
+5. If a team is eliminated, confirm their players weren't in future weeks
+
+Generated by Playoff Fantasy Football Optimizer
+Analyzed: 14 playoff teams, 441 eligible players
+Algorithm: PPR scoring, TE premium, advancement probability weighting
