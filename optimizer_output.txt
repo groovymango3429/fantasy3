@@ -1,0 +1,92 @@
+======================================================================
+PLAYOFF FANTASY FOOTBALL LINEUP OPTIMIZER
+======================================================================
+
+Loading player data...
+Loaded 441 players from 14 teams
+Applying TE premium (1.5x PPR)...
+Weighting players by team advancement probability...
+
+Optimizing lineups for all playoff weeks...
+
+=== WILD CARD ROUND (Week 1) ===
+
+=== DIVISIONAL ROUND (Week 2) ===
+
+=== CONFERENCE CHAMPIONSHIPS (Week 3) ===
+
+=== SUPER BOWL (Week 4) ===
+
+======================================================================
+OPTIMIZED PLAYOFF LINEUPS
+======================================================================
+
+Week 1 Lineup:
+----------------------------------------------------------------------
+  QB  | Trevor Lawrence           | JAX |  338.2 pts
+  RB  | Christian McCaffrey       | SF  |  416.6 pts
+  RB  | Travis Etienne Jr.        | JAX |  253.9 pts
+  RB  | James Cook                | BUF |  302.2 pts
+  WR  | Puka Nacua                | LAR |  375.0 pts
+  WR  | Jaxon Smith-Njigba        | SEA |  359.9 pts
+  WR  | A.J. Brown                | PHI |  220.3 pts
+  TE  | Dallas Goedert            | PHI |  185.1 pts
+  TE  | Dalton Schultz            | HOU |  177.7 pts
+----------------------------------------------------------------------
+Total Projected Points: 2628.9
+
+
+Week 2 Lineup:
+----------------------------------------------------------------------
+  QB  | Drake Maye                | NE  |  352.0 pts
+  RB  | Saquon Barkley            | PHI |  232.3 pts
+  RB  | Kyren Williams            | LAR |  263.3 pts
+  RB  | D'Andre Swift             | CHI |  228.6 pts
+  WR  | Courtland Sutton          | DEN |  219.7 pts
+  WR  | Stefon Diggs              | NE  |  210.3 pts
+  WR  | DeVonta Smith             | PHI |  201.8 pts
+  TE  | Hunter Henry              | NE  |  178.8 pts
+  TE  | Colston Loveland          | CHI |  165.1 pts
+----------------------------------------------------------------------
+Total Projected Points: 2051.9
+
+
+Week 3 Lineup:
+----------------------------------------------------------------------
+  QB  | Caleb Williams            | CHI |  318.2 pts
+  RB  | RJ Harvey                 | DEN |  206.6 pts
+  RB  | TreVeyon Henderson        | NE  |  206.2 pts
+  RB  | Kenneth Walker III        | SEA |  191.9 pts
+  WR  | Troy Franklin             | DEN |  177.1 pts
+  WR  | DJ Moore                  | CHI |  170.2 pts
+  WR  | Rome Odunze               | CHI |  146.1 pts
+  TE  | AJ Barner                 | SEA |  147.3 pts
+  K   | Jason Myers               | SEA |  189.0 pts
+----------------------------------------------------------------------
+Total Projected Points: 1752.6
+
+
+Week 4 Lineup:
+----------------------------------------------------------------------
+  QB  | Bo Nix                    | DEN |  304.8 pts
+  RB  | Zach Charbonnet           | SEA |  181.4 pts
+  RB  | J.K. Dobbins              | DEN |  115.9 pts
+  WR  | Rashid Shaheed            | SEA |  144.6 pts
+  WR  | Cooper Kupp               | SEA |  116.3 pts
+  WR  | Jakobi Meyers             | JAX |  175.8 pts
+  TE  | Evan Engram               | DEN |  102.8 pts
+  K   | Wil Lutz                  | DEN |  131.0 pts
+  DEF | Ernest Jones IV           | SEA |  127.0 pts
+----------------------------------------------------------------------
+Total Projected Points: 1399.6
+
+======================================================================
+TOTAL PROJECTED POINTS ACROSS ALL WEEKS: 7833.0
+======================================================================
+
+Strategy Notes:
+- Each player is used only once across all weeks
+- TE scoring includes 1.5x PPR premium
+- Elite players from top seeds (DEN #1, SEA #1, NE #2) conserved for later rounds
+- Player values weighted by team advancement probability
+- Lineup requirements: 1 QB, 2-3 RB, 2-3 WR, 1-2 TE, 0-1 K, 0-1 DEF (9 total)
