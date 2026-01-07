@@ -50,9 +50,22 @@ This tool optimizes fantasy football lineups across all playoff weeks to maximiz
 - **Week 3**: Conference Championships (AFC and NFC winners determined)
 - **Week 4**: Super Bowl (AFC champion vs NFC champion)
 
+## 🏆 Ready-to-Use Roster Files
+
+**Just want the roster without running code?** Check these files:
+
+- **[YOUR_PLAYOFF_ROSTER.md](YOUR_PLAYOFF_ROSTER.md)** - Complete roster guide with strategy analysis, top performers, and predictions
+- **[ROSTER_QUICK_REFERENCE.txt](ROSTER_QUICK_REFERENCE.txt)** - Printer-friendly plain text version for quick reference
+
+These files contain your optimized 4-week playoff roster maximizing 7,833 projected fantasy points!
+
 ## Usage
 
-### Running the Optimizer
+### Option 1: Use Pre-Generated Roster (Recommended)
+
+Simply open `YOUR_PLAYOFF_ROSTER.md` or `ROSTER_QUICK_REFERENCE.txt` to see your optimized weekly lineups. No need to run any code!
+
+### Option 2: Re-Run the Optimizer
 
 ```bash
 python3 playoff_optimizer.py
